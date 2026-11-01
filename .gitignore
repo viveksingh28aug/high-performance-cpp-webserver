@@ -1,0 +1,38 @@
+# Build artifacts
+build/
+build_*/
+bin/
+lib/
+cmake-build-*/
+CMakeUserPresets.json
+compile_commands.json
+
+# Object files & archives
+*.o
+*.a
+*.so
+*.dylib
+
+# Test and benchmark temporary logs & results
+logs/
+*.log
+*.gnuplot
+results/*.gnuplot
+ab_test.log
+wrk_test.log
+
+# Core dumps & debug dumps
+core
+core.*
+vgcore.*
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*~
+.directory
+
+# Operating system files
+.DS_Store
+Thumbs.db
